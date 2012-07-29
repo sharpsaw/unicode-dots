@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+# encoding: utf-8
+## Replace lower-case letters with small-caps. Amazingly, there's no q or x.
+input =
+  if ARGV.length > 0
+    ARGV.join ' '
+  else
+    STDIN.read
+  end
+print input.tr 'a-z', 'ᴀʙᴄᴅᴇꜰɢʜɪᴊᴋʟᴍɴᴏᴘqʀꜱᴛᴜᴠᴡxʏᴢ'

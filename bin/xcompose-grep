@@ -1,0 +1,3 @@
+#!/bin/sh -e
+## Grep through the XCompose mappings. Handy when you're learning new mnemonics, or when you want to see the code point value of a char you can already type.
+grep "$@" ~/.../src/unicode-dots/xcompose.d/*
