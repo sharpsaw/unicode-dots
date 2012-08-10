@@ -7,6 +7,6 @@ update:
 	    echo "Looks like you don't have Multi_key mapped. Fixing that…"; \
 	    sleep 2; \
 	    grep "$(SUPER_SPECIAL_CODE)" ~/.Xmodmap >/dev/null || \
-		echo $(SUPER_SPECIAL_CODE) >> ~/.Xmodmap \
+		echo $(SUPER_SPECIAL_CODE) >> ~/.Xmodmap; \
 	    xmodmap -e "$(SUPER_SPECIAL_CODE)"; \
 	fi
