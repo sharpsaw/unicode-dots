@@ -53,6 +53,12 @@ for some zany diagrams.).
 To figure out what mappings are available, the best thing to do is to browse
 through the files or use the included `xcompose-grep` script.
 
+TODO
+----
+
+Sync with https://github.com/leoboiko/pointless-xcompose . That project is a
+notch above this one in many ways.
+
 Contact
 -------
 
