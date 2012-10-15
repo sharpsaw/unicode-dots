@@ -10,3 +10,4 @@ update:
 		echo $(SUPER_SPECIAL_CODE) >> ~/.Xmodmap; \
 	    xmodmap -e "$(SUPER_SPECIAL_CODE)"; \
 	fi
+	fc-list | grep -q Code2002 || fc-cache
