@@ -1,0 +1,2 @@
+#!/bin/sh -xe
+fontsize=$1; shift; ,xfontsize $fontsize && urxvt "$@"

@@ -1,0 +1,9 @@
+#!/bin/bash -xe
+## Set the font for urxvt, I guess eventully others
+xrdb -merge <<EOT
+URxvt*font: xft:Liberation Mono:pixelsize=${1-10}, \
+    xft:Code2000, \
+    xft:Code2001, \
+    xft:Code2002, \
+    xft:Quivira:antialias=true:hinting=true
+EOT
