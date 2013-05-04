@@ -315,6 +315,7 @@ Cannot find UnicodeData.txt, please place it into
 working directory (optionally you can gzip it).
 Without the file, searching will be much slower.
 
+On Debian and Ubuntu, you can apt-get install unicode-data
 """ )
             for i in xrange(sys.maxunicode):
                 try:
