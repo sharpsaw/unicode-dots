@@ -1152,7 +1152,7 @@ include "%L" # system mapping, e.g.: /usr/share/X11/locale/en_US.UTF-8/Compose
 <Multi_key> <o> <comma>			: "·"	periodcentered	# MIDDLE DOT
 <Multi_key> <space> <minus>		: "‑"	U2011		# NON-BREAKING HYPHEN
 # Already present for me:
-# <Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
+<Multi_key> <space> <space>		: " "	U00A0		# NO-BREAK SPACE
 # Do we want/need these?
 <Multi_key> <d> <a> <g>			: "†"	U2020		# DAGGER
 <Multi_key> <d> <d> <a> <g>		: "‡"	U2021		# DOUBLE DAGGER
